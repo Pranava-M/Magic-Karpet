@@ -172,7 +172,6 @@ def capture_background(cap, num_frames=BG_CAPTURE_FRAMES):
             bg_accumulator = np.float64(frame)
         else:
             bg_accumulator += frame.astype(np.float64)
-
         progress_frame = frame.copy()
         pct    = int((i + 1) / num_frames * 100)
         bar_w  = int(frame.shape[1] * pct / 100)
