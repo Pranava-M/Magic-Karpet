@@ -14,7 +14,6 @@ DEFAULT_HEIGHT      = 480
 BG_CAPTURE_FRAMES   = 30
 GHOST_TRAIL_DEPTH   = 8
 SCREENSHOT_DIR      = "magic_karpet_screenshots"
-
 COLOR_PROFILES = {
     "red": {
         "name":        "Red",
