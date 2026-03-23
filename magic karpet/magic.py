@@ -7,7 +7,6 @@ import datetime
 import math
 import random
 from collections import deque
-
 WINDOW_TITLE        = "Magic Karpet - Invisibility Simulator"
 DEFAULT_WIDTH       = 640
 DEFAULT_HEIGHT      = 480
