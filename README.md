@@ -11,6 +11,7 @@
 
 ---
 
+
 ## ✨ What Is This?
 
 Magic Karpet is a fun, real-time invisibility simulator inspired by Harry Potter's invisibility cloak. Point your webcam at a **colored cloth**, and it disappears — replaced by the background captured at startup. Layer on effects like ghost trails, glitch, thermal vision, night vision, and more.
