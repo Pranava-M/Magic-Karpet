@@ -349,7 +349,6 @@ def apply_vignette(frame, strength=0.5):
     vig    = np.clip(1.0 - dist * strength, 0, 1)[:, :, np.newaxis]
     return (frame.astype(np.float32) * vig).astype(np.uint8)
 
-
 def apply_cloth_shimmer(frame, mask, frame_count):
     result  = frame.copy()
     k       = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (9, 9))
