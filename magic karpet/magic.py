@@ -103,7 +103,6 @@ def draw_rounded_rect(img, x1, y1, x2, y2, radius, color, thickness=-1, alpha=1.
     x2 = int(clamp(x2, 0, w - 1))
     y2 = int(clamp(y2, 0, h - 1))
     radius = int(clamp(radius, 0, min((x2 - x1) // 2, (y2 - y1) // 2)))
-
     if thickness == -1:
         overlay = img.copy()
         if x1 + radius < x2 - radius:
