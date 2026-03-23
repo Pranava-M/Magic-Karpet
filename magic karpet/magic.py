@@ -316,7 +316,6 @@ def apply_thermal_vision(frame):
     thermal = cv2.applyColorMap(gray, cv2.COLORMAP_INFERNO)
     return thermal
 
-
 def apply_night_vision(frame):
     gray    = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     boosted = cv2.convertScaleAbs(gray, alpha=1.8, beta=30)
