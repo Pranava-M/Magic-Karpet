@@ -125,7 +125,6 @@ def draw_rounded_rect(img, x1, y1, x2, y2, radius, color, thickness=-1, alpha=1.
         cv2.circle(img, (x1 + radius, y2 - radius), radius, color, thickness)
         cv2.circle(img, (x2 - radius, y2 - radius), radius, color, thickness)
 
-
 def resize_frame(frame, width, height):
     return cv2.resize(frame, (width, height), interpolation=cv2.INTER_LINEAR)
 
