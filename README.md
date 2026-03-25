@@ -264,9 +264,10 @@ This project is open source under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## 🙏 Acknowledgement
 
 Built with:
 - [OpenCV](https://opencv.org/) — computer vision backbone
 - [NumPy](https://numpy.org/) — fast array operations
 - Inspired by classic chroma key / green screen techniques and, of course, Harry Potter ✨
+- For any doubts, you can contact me 
